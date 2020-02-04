@@ -1,0 +1,383 @@
+@font-face{
+	font-family: "邯郸串城体";
+	src: url(../font/邯郸串城体.ttf);
+}
+
+p
+  {
+  color:rgb(0,0,255);
+  }
+
+#selectarea{
+	width: 100%;           
+    height: 6%; 
+}
+
+#buttonarea{
+	width: 100%;           
+    height: 6%; 
+}
+
+.tooltip {
+	position: absolute;
+	width: 40px;
+	height: auto;
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	background-color: rgb(105, 241, 112);
+	opacity: 0.8;
+	border-radius: 5px;
+}
+
+.axis path,  
+.axis line{  
+	fill: none;  
+	stroke: black;  
+ 	shape-rendering: crispEdges;  
+}  
+.axis text {  
+	font: 10px sans-serif;
+	fill:black; 
+}  
+
+.axis .grid-line {
+	stroke: black;
+	shape-rendering: crispEdges;
+	stroke-opacity: .2;
+}
+
+#left-div{
+	position: absolute;
+	width: 70%;
+	height:100%;
+}
+
+.outer-div{
+	background-color: rgb(253, 252, 252);
+	border-radius: 7px;
+	border: 2px solid rgb(8, 8, 8);
+}
+
+.block-div{
+	height: 100%;
+	border-radius: 7px;
+}
+
+#top-div{
+	position: absolute;
+	width: 100%;
+	height: 70%;
+}
+
+#bottom-div{
+	position: absolute;
+	top: 70%;
+	width: 100%;
+	height: 30%;
+}
+
+#top-left-div{
+	background-color: #585E5C;
+	position: absolute;
+	width: 60%;
+	height: 100%;
+}
+
+#top-right-div{
+	background-color: #585E5C;
+	position: absolute;
+	left: 60%;
+	width: 40%;
+	height: 100%;
+}
+
+#top-right-top-div{
+	background-color: #585E5C;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+}
+
+#top-right-bottom-div{
+	background-color: #585E5C;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 50%;
+}
+
+#bottom-left-div{
+	background-color: #323c48;
+	position: absolute;
+	width: 50%;
+	height: 100%;
+}
+
+#bottom-right-div{
+	background-color: #585E5C;
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+
+.btn-div{
+	margin:5px;
+	line-height:26px
+}
+#view1_btn{
+	height:26px;
+	margin: -26px 0 0;
+}
+
+#view1{
+	overflow: hidden;
+	bottom:0px;
+}
+
+#btn{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: none
+}
+
+#title1{
+	width: 100%;
+	height: 15%;
+	font-size: 15px;
+	text-align:center;
+}
+
+#bordered1 th{
+	text-align:center;
+	color: #FFFF00;
+	font-family: "华文楷体";
+	font-size: 15px;
+}
+#bordered1{
+	background: #191816;	
+	width: 100%;
+	height: 100%;
+}
+
+#content{
+	width: 100%;
+	top: 15%;
+	height: 86%;
+	font-size: 15px;
+	overflow: scroll;
+	overflow-x: hidden;/*去掉横向滚动条*/
+}
+
+#blockbody td{
+	border: 1px solid rgb(113, 145, 175);  
+	font-size: 12px;
+	text-align: center;
+	color: rgb(248, 246, 247);
+	padding-top: 2px;
+	padding-bottom: 2px; 
+}
+
+.odd{
+	background-color: #585E5C;
+}
+
+.even{
+	background-color: #BA2835;
+}
+
+#blockbody tr:hover{
+	background-color: #FFD700;
+} 
+ 
+#blockbody tr:hover td{
+	background:none;
+}
+
+.button_box{
+	position:absolute;
+	z-index: 9999;
+	top:10px;
+	left:10px; 
+	color: #fff;
+	font-family: "华文楷体";
+	font-size: 17px;
+}
+
+#button1{
+	margin-left: 40px;
+	width: 15px;
+	height:15px;
+	background-color: rgb(43, 241, 159);
+	border-radius: 50%;
+	border: none;
+	vertical-align:middle;   
+}
+
+#button2{
+	margin-left: 20px;
+	width: 15px;
+	height:15px;
+	background-color: rgb(216, 71, 71);
+	border-radius: 50%;
+	border: none;
+	vertical-align:middle;   
+}
+
+#button3{
+	margin-left: 20px;
+	width: 15px;
+	height:15px;
+	background-color: rgb(248, 90, 193);
+	border-radius: 50%;
+	border: none;
+	vertical-align:middle;   
+}
+
+#button4{
+	margin-left: 20px;
+	width: 15px;
+	height:15px;
+	background-color: rgb(69, 133, 175);
+	border-radius: 50%;
+	border: none;
+	vertical-align:middle;   
+}
+
+#return_button{
+	margin-left: 10px;
+	background-color: rgb(175, 212, 71);
+	font-family: "华文楷体";
+	color: #fff;
+}
+
+.select_box{
+	position:absolute;
+	top:3px;
+	left:10px; 
+	font-family: "华文楷体";
+	font-size: 15px;
+	color:#FFFF00;
+	border: 1px solid #585E5C;
+}
+
+#mysel{
+	background-color: #585E5C;	
+}
+
+#blockbody td{
+	font-family: "华文楷体";
+	font-size: 13px;
+}
+
+#box1{
+	background-color: #585E5C;	
+	position: absolute;
+	width: 50%;
+	height: 100%;
+}
+
+#box2{
+	background-color: #585E5C;	
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+
+.slide_box{
+    position: absolute;
+    top:10px;
+    left:650px;
+    color:#fff;
+    font-family:"华文楷体";
+    font-size:17px;
+    z-index: 9999;
+}
+
+#activitydiv{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100px;
+    border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}  
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 15px;
+    border-radius: 10px; /*将轨道设为圆角的*/
+    box-shadow: 0 1px 1px #def3f8, inset 0 .125em .125em #0d1112; /*轨道内置阴影效果*/
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    margin-top: -5px; /*使滑块超出轨道部分的偏移量相等*/
+    background: #ffffff; 
+    border-radius: 50%; /*外观设置为圆形*/
+    border: solid 0.125em rgba(205, 224, 230, 0.5); /*设置边框*/
+    box-shadow: 0 .125em .125em #3b4547; /*添加底部阴影*/
+}
+.outer-div{
+	background-color: rgb(253, 252, 252);
+	border-radius: 7px;
+	border: 2px solid rgb(8, 8, 8);
+}
+
+.map-div{
+	height: 100%;
+	border-radius: 7px;
+}
+
+.links line {
+	stroke: #999;
+	stroke-opacity: 0.6;
+}
+
+.nodes circle {
+	stroke: #fff;
+	stroke-width: 0.5px;
+}
+h3 {
+	color: #1ABC9C;
+	text-align:center;
+	font-style: italic;
+	font-size: 14px;
+	font-family: "Helvetica";
+}
+
+.node {
+	stroke: #fff;
+	stroke-width: 0px;
+}
+.link {
+	stroke: #999;
+	stroke-opacity: .6;
+}
+
+h3 {
+	color: #1ABC9C;
+	text-align:center;
+	font-style: italic;
+	font-size: 14px;
+	font-family: "Helvetica";
+}
+.slider .handle {
+    fill: #fff;
+    stroke: #000;
+    stroke-opacity: .5;
+    stroke-width: 1.25px;
+    cursor: grab;
+}
