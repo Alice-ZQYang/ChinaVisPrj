@@ -22,6 +22,10 @@ Data visulization framework: D3.js, Echarts
 
 Data processing: Python 
 
+flowchart of our project:
+
+![avatar](https://github.com/Alice-ZQYang/ChinaVisPrj/blob/master/image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-04%20%E4%B8%8B%E5%8D%8812.54.08.png)
+
 ## Accomplishments
 
 ### Profile of allien resident
