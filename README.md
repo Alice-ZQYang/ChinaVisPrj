@@ -18,7 +18,7 @@ ChinaVis Challenge: [http://chinavis.org/2017/challenge.html](http://chinavis.or
 
 ## How We built it
 
-Data visulization framework: D3.js, Echarts
+Data visulization framework: D3.js, Echarts, Leaflet
 
 Data processing: Python 
 
